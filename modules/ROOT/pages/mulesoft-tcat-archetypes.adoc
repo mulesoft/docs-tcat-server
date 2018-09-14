@@ -1,0 +1,7 @@
+= MuleSoft Tcat Archetypes
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+:keywords: tcat, archetypes
+
+See xref:mulesoft-tomcat-archetypes.adoc[MuleSoft Tomcat Archetypes].

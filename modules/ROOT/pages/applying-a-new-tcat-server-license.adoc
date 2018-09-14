@@ -1,0 +1,16 @@
+= Applying a New Tcat Server License
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+:keywords: tcat, server, license
+
+When you are ready to go into production, you purchase a Tcat Server license and apply it to your instance of Tcat Server as follows:
+
+. Copy the file to the same server where Tcat Server is running.
+. In the Tcat Server administration console, click *Administration*, and click *License*.
+. Click *Browse* and navigate to the location of the file.
+. Click *Submit*.
+
+xref:monitoring-repository-activity.adoc[<< Previous: *Monitoring Repository Activity*]
+
+xref:scheduling-the-usage-statistics-script.adoc[Next: *Scheduling the Usage Statistics Script* >>]
