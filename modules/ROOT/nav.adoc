@@ -1,4 +1,5 @@
 .xref:index.adoc[Tcat Server]
+* xref:index.adoc[About Tcat Server]
 * xref:using-the-rest-api.adoc[Using the REST API]
  ** xref:apply-a-profile-to-a-server.adoc[Apply a Profile to a Server]
  ** xref:apply-a-profile-to-a-server-group.adoc[Apply a Profile to a Server Group]
