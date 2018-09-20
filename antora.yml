@@ -1,5 +1,5 @@
 name: tcat-server
 title: Tcat Server
-version: master
+version: '7.1'
 nav:
 - modules/ROOT/nav.adoc
