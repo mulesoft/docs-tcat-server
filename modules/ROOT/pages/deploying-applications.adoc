@@ -118,4 +118,4 @@ xref:monitoring-a-server.adoc[Next: *Monitoring a Server* >>]
 == See Also
 
 * https://www.mulesoft.com/tcat/download[Tcat Download]
-* https://support.mulesoft.com[Contact MuleSoft]
+* https://help.mulesoft.com[Contact MuleSoft]

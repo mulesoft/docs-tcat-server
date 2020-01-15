@@ -148,4 +148,4 @@ The following properties are common to all alert types. (The class `com.mulesoft
 == See Also
 
 * https://www.mulesoft.com/tcat/download[Tcat Download]
-* https://support.mulesoft.com[Contact MuleSoft]
+* https://help.mulesoft.com[Contact MuleSoft]

@@ -35,4 +35,4 @@ image::porlet-configuration-example.png[porlet_configuration_example]
 == See Also
 
 * https://www.mulesoft.com/tcat/download[Tcat Download]
-* https://support.mulesoft.com[Contact MuleSoft]
+* https://help.mulesoft.com[Contact MuleSoft]
