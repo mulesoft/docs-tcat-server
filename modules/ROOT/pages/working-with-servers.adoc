@@ -126,4 +126,4 @@ xref:deploying-applications.adoc[Next: *Deploying Applications* >>]
 == See Also
 
 * https://www.mulesoft.com/tcat/download[Tcat Download]
-* https://support.mulesoft.com[Contact MuleSoft]
+* https://help.mulesoft.com[Contact MuleSoft]

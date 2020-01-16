@@ -812,4 +812,4 @@ Jun  6 17:02:21 syrah slapd[1099]: conn=1007 op=2 SRCH attr=cn objectClass javaS
 == See Also
 
 * https://www.mulesoft.com/tcat/download[Tcat Download]
-* https://support.mulesoft.com[Contact MuleSoft]
+* https://help.mulesoft.com[Contact MuleSoft]

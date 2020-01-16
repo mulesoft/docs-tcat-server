@@ -89,4 +89,4 @@ Congratulations! You have a basic JSP or Wicket application that is set up to ru
 == See Also
 
 * https://www.mulesoft.com/tcat/download[Tcat Download]
-* https://support.mulesoft.com[Contact MuleSoft]
+* https://help.mulesoft.com[Contact MuleSoft]

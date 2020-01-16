@@ -122,4 +122,4 @@ image::addtobeta1.png[addtoBeta1]
 == See Also
 
 * https://www.mulesoft.com/tcat/download[Tcat Download]
-* https://support.mulesoft.com[Contact MuleSoft]
+* https://help.mulesoft.com[Contact MuleSoft]
