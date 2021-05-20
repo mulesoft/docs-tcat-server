@@ -3,6 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, upgrade, 7.1.0
+include::partial$eol-warning.adoc[] 
 
 The upgrade is done in three phases.
 

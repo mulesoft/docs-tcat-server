@@ -3,6 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, rest, api
+include::partial$eol-warning.adoc[] 
 
 The REST API for Tcat Server provides a way for you to programmatically access much of Tcat's functionality. It allows you to:
 

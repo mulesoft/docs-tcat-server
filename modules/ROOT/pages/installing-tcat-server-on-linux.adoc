@@ -3,6 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, linux, installation
+include::partial$eol-warning.adoc[] 
 
 This document describes how to install MuleSoft Tcat Server on the Linux operating system. A basic installation using the Linux installer is described below, followed by advanced installations in text-only mode and with the manual zip file. In addition, this document describes how to start and stop Tcat Server, access the Tcat console, and provides advanced configuration and security steps.
 

@@ -3,6 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, register, server
+include::partial$eol-warning.adoc[] 
 
 The POST operation registers the specified server inside Tcat Server. The call takes a JSON object with two properties: `name`, which is the name of the newly registered server, and `agentUrl`, which is the URL where the Tcat Server agent is located on the remote Tomcat server.
 

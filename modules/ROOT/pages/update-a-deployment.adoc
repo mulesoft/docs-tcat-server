@@ -3,6 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, update, deployment, put
+include::partial$eol-warning.adoc[] 
 
 The PUT operation updates the specified deployment. The `name`, `applications`, and `servers` property of the deployment type are required, whereas the `applications` and `servers` arrays can be empty if desired.
 

@@ -3,6 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, upgrade, r2 p1
+include::partial$eol-warning.adoc[] 
 
 This page provides important information for users who are upgrading from Tcat Server 6 R2 to the R2 P1 release. Throughout this page, the directory of your Tomcat installation is referred to as `CATALINA_HOME`. For information on what has changed in this release, see the xref:release-notes-tcat-6-r2.adoc[Release Notes Tcat 6 R2].
 

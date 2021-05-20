@@ -3,6 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, http, atompub, api
+include::partial$eol-warning.adoc[] 
 
 Tcat Server takes advantage of the simple but powerful Atom Publishing Protocol for much of its integration API. It is a RESTful HTTP-based API based on the concept of _collections_ and _entries_. AtomPub collections can store anything. The Tcat Server API uses Atom entries to represent artifacts inside the Tcat Server registry (repository). Through the Atom Publishing Protocol, new items can be created, updated, and deleted.
 

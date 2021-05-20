@@ -3,6 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, changes, patch, fixed, feature
+include::partial$eol-warning.adoc[] 
 
 This page describes the changes in Tcat Server 6 and includes the known and fixed issues in this release.
 

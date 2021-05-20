@@ -3,6 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, undeploy, deployment
+include::partial$eol-warning.adoc[] 
 
 The POST operation undeploys a deployment when appended with `/undeploy`. The URL is the deployment `href` property with `/undeploy` appended to it.
 

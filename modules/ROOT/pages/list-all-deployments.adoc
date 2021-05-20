@@ -3,6 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, list, deployments, get, json
+include::partial$eol-warning.adoc[] 
 
 The GET operation lists all deployments inside Tcat Server. Returns a JSON type that contains two properties: `total`, which is the total number of deployments found in the system, and `data`, which is an array of package types.
 

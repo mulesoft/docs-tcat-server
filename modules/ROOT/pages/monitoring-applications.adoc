@@ -3,6 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, monitor, applications, sessions, attributes, jsp, resources, jndi
+include::partial$eol-warning.adoc[] 
 
 When viewing a list of the applications on a server (in the administration console, click the Servers tab, click a server name, and then click the Applications tab), you can view further details about a specific application by clicking its name. The Summary tab displays runtime information about the application and statistics charts. You can click one of the side tabs in the left navigation bar to see more information as described in the following sections.
 

@@ -3,6 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, alerts, notifications, destinations
+include::partial$eol-warning.adoc[] 
 
 Once you've xref:working-with-alerts.adoc[defined your alerts], you can create email or SNMP destinations to send them to. Notifications configure which alerts are sent to which destination. For example, if you wanted to send all fatal alerts to ops@mulesoft.com, you could create an email destination with your SMTP server and then configure a notification to send fatal alerts to that email address using the SMTP server defined in the destination.
 

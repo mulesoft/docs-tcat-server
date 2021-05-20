@@ -3,6 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, server, tomcat
+include::partial$eol-warning.adoc[] 
 
 This page introduces Tcat Server and describes the underlying technologies. For more information, see https://www.mulesoft.com/tcat/understanding-apache-tomcat#tcat[Tcat Resources].
 

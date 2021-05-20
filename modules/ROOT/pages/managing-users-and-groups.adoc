@@ -3,6 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, users, groups, permissions
+include::partial$eol-warning.adoc[] 
 
 Tcat Server uses the common permission scheme of users and user groups. Users are individuals who can log in to Tcat Server. User groups allow you to assign permissions collectively to a group of users.
 

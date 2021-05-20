@@ -3,6 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, cloudcat, amazon, ec2, gogrid, mysql
+include::partial$eol-warning.adoc[] 
 
 MuleSoft Cloudcat is enterprise Apache Tomcat in the cloud. Cloudcat is a fully supported virtual image (Amazon EC2 AMI) that allows you to deploy your Tomcat applications to the cloud. Cloudcat includes Apache Tomcat with a preconfigured MySQL database on Ubuntu Linux.
 

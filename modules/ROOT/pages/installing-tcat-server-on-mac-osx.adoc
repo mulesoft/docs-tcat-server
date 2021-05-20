@@ -3,6 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, install, mac, os x, osx
+include::partial$eol-warning.adoc[] 
 
 This document describes how to install MuleSoft Tcat Server on Apple's Mac OS X operating system. A basic installation using the Mac installer is described below.
 

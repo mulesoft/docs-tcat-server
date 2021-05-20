@@ -3,6 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, linux, migrate, jvm
+include::partial$eol-warning.adoc[] 
 
 This page discusses how to move an already-installed Tcat Server installation directory tree from a server running an operating system other than Linux to another server machine that runs Linux. This information applies to the following Linux distributions: Red Hat, CentOS, Fedora, Ubuntu, Debian, Debian variants, and SUSE variants.
 

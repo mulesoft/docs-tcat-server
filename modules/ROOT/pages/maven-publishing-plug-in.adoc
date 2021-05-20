@@ -3,6 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, publishing, plugin
+include::partial$eol-warning.adoc[] 
 
 If you create a Maven project, you can use the Galaxy Publishing plugin for Maven to easily publish your project and/or its resources to a Tcat Server repository. To use the plugin, you add the necessary Maven repositories to your Maven POM, and then configure the plugin using the `<configuration>` tags in your POM. The rest of this page describes these tasks.
 

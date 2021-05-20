@@ -3,6 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, global, dashboard, portlet
+include::partial$eol-warning.adoc[] 
 
 The Tcat Global Dashboard allows you to create a unique view into your Tcat Server instance using the provided customizable portlets.
 

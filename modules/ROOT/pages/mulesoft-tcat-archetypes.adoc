@@ -3,5 +3,6 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, archetypes
+include::partial$eol-warning.adoc[] 
 
 See xref:mulesoft-tomcat-archetypes.adoc[MuleSoft Tomcat Archetypes].

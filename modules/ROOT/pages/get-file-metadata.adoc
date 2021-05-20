@@ -3,6 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, get, file, metadata
+include::partial$eol-warning.adoc[] 
 
 The GET operation returns metadata from the specified file from a server relative to CATALINA_BASE. URLs are of the form http://localhost:8080/console/api/servers/73d89173-290e-4cb3-a61c-e11deb74767d/files/<path>?metadata=true where `<path>` is the path of the file you want to retrieve.
 
