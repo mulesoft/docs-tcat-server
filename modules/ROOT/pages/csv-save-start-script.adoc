@@ -3,6 +3,8 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, csv, save, start, script
+
+
 include::partial$eol-warning.adoc[] 
 
 Run the start script just once when you have it configured. You should see a success message in the admin shell, and your Tomcat's catalina.out log file should show that it is now collecting metric data for the metrics you listed, on each of the servers in the Tcat server group matching the ID you configured.

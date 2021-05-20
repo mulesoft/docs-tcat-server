@@ -3,6 +3,8 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, delete, server, group
+
+
 include::partial$eol-warning.adoc[] 
 
 The DELETE operation deletes a server group.

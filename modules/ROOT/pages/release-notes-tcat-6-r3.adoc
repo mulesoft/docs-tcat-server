@@ -3,6 +3,8 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, changes, patch, fixed, feature
+
+
 include::partial$eol-warning.adoc[] 
 
 Tcat Server 6 R3 fixes several bugs, but also bundles the official release binaries of Tomcat version 6.0.26.

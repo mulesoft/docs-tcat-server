@@ -3,6 +3,8 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, jmx, csv, metric, groovy, script
+
+
 include::partial$eol-warning.adoc[] 
 
 This guide describes Tcat admin console groovy scripts for saving JMX metric data from your Tcat server group servers to CSV files from the Tcat console JVM. You can copy and paste these into your admin shell  save them there, and use the scripts.

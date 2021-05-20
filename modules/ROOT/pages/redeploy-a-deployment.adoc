@@ -3,6 +3,8 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, deployment, redeploy
+
+
 include::partial$eol-warning.adoc[] 
 
 The POST operation redeploys the specified deployment when appended with `/redeploy`. The URL is the deployment `href` property with `/redeploy` appended to it.

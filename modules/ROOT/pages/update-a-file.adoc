@@ -3,6 +3,8 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, update, file, put
+
+
 include::partial$eol-warning.adoc[] 
 
 The PUT operation updates a file on the server relative to CATALINA_BASE. This has exactly the same semantics as POST, except that instead of creating new files, it  returns a 404 status code if the file does not exist. URLs are of the form http://localhost:8080/console/api/servers/73d89173-290e-4cb3-a61c-e11deb74767d/files/<path> where `<path>` is the path of the file you want to update. The request body contains the file.

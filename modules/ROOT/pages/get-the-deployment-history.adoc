@@ -3,6 +3,8 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, get, deployment, history, json
+
+
 include::partial$eol-warning.adoc[] 
 
 The GET operation retrieves links to historical information about the specified deployment when appended with `/history`. Each deployment has a version history. Each individual version contains the applications deployed, the servers deployed to, and the status of the last deployment.

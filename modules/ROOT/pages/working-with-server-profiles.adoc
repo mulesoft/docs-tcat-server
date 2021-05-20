@@ -3,6 +3,8 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, server, profiles
+
+
 include::partial$eol-warning.adoc[] 
 
 A _server profile_ is a set of environment variables and files that you can publish to multiple servers at once. You can use the profile to override variables for the operating system, user, and application on a Tomcat instance. You can also add files from the repository, such as configuration files like `server.xml`. When you add files, you add all files in the workspace you specify. For information on adding workspaces and files to the repository, see xref:managing-the-repository.adoc[Managing the Repository].

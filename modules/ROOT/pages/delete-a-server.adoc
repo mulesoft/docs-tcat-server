@@ -3,7 +3,9 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, delete, server
-include::partial$eol-warning.adoc[] 
+
+
+include::partial$eol-warning.adoc[]
 
 The DELETE operation deletes the specified server.
 

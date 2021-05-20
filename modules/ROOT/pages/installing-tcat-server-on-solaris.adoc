@@ -3,6 +3,9 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
+
+include::partial$eol-warning.adoc[] 
+
 This document describes how to install MuleSoft Tcat Server on the Solaris operating system. A basic installation using the Solaris installer is described below, followed by advanced installations in headless, text-only mode. In addition, this document describes how to start and stop Tcat Server, access the Tcat console, and provides advanced configuration and security steps.
 
 For additional information and to install Tcat Server on other operating systems, see:

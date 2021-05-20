@@ -3,6 +3,8 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, server group, POST, JSON
+
+
 include::partial$eol-warning.adoc[] 
 
 The POST operation creates a new server group. The JSON server group data structure should contain one property, `name`, which is the name of the group to be created.

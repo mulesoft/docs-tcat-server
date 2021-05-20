@@ -3,6 +3,9 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, server
+
+
+
 include::partial$eol-warning.adoc[]
 
 The Servers tab displays the Tomcat instances that contain the Tcat Server client, allowing you to manage them with Tcat Server. Servers are organized into _groups_. Click a group in the navigation tree on the left to see its servers, or click *All* to see all servers. Click a server's check box to perform actions on it such as adding it to a group, or click the server's name to view its details.

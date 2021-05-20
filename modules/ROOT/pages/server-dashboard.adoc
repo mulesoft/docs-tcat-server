@@ -3,6 +3,8 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, server, dashboard, chart
+
+
 include::partial$eol-warning.adoc[] 
 
 The following shows the Tcat Server dashboard:

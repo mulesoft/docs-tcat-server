@@ -3,6 +3,8 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, script, examples
+
+
 include::partial$eol-warning.adoc[] 
 
 This page provides examples of using xref:automating-tasks.adoc[scripts].

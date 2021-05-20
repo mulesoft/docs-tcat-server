@@ -3,6 +3,8 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, admin shell, server
+
+
 include::partial$eol-warning.adoc[] 
 
 The Admin shell allows you to easily build and install your own extensions for Tcat Server by writing scripts. You can then run the scripts on startup or schedule them using a cron-like scheduling mechanism. The scripts are written using the Java-like Groovy scripting language. For more information about Groovy, see http://groovy-lang.org/[Groovy].

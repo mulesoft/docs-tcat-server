@@ -3,6 +3,8 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, restart, server, post
+
+
 include::partial$eol-warning.adoc[] 
 
 The POST operation restarts the specified server when the resource is appended with `restart`. The URL is the `href` property of the server with `/restart` appended to it.

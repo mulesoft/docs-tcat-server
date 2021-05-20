@@ -3,6 +3,8 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, deploy, amazon, ec2, plugin
+
+
 include::partial$eol-warning.adoc[] 
 
 The EC2 plugin allows you to create Amazon machine instances (AMIs) of your existing Tomcat instances and deploy them to EC2 via the Tcat Server console. This page describes how to install the plug-in, create the AMI, and deploy it. If you want to use an existing, fully configured cloud implementation of Tomcat instead of creating and deploying your own instance, see Using Cloudcat with Amazon EC2 instead.

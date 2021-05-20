@@ -3,6 +3,8 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, server, profile, environment, settings
+
+
 include::partial$eol-warning.adoc[] 
 
 Tcat Server supports a feature named *server profiles* that offers an automated way to apply file changes and environment variable settings changes to one or more Tcat or Tomcat installations, and a central point of administration and storage of these changes.
