@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, delete, file
 
+
+include::partial$eol-warning.adoc[] 
+
 The DELETE operation deletes a file on the server relative to CATALINA_BASE. URLs are of the form http://localhost:8080/console/api/servers/local$73d89173-290e-4cb3-a61c-e11deb74767d/files/<path> where `<path>` is the path of the file you want to delete.
 
 Example Request:

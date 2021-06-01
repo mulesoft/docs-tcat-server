@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, monitor, server, environment, variables, summary, memory
 
+
+include::partial$eol-warning.adoc[] 
+
 This page describes how system administrators can use the MuleSoft Tcat Server to monitor the health of a server, see which applications are up and which are down, and determine memory usage. To view server details, click the server name on the Servers tab. The Server Details screen displays the information on several different tabs, which are described in the sections below.
 
 At any time when viewing the server details, you can click *Restart Server* at the top of the window to restart that server. If you no longer want to monitor the server, click *Unregister Server*.

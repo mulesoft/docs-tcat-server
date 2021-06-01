@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, user, group, permissions, server
 
+
+include::partial$eol-warning.adoc[] 
+
 Tcat server allows user group permissions to be assigned either globally or by server group. These permissions can be assigned when groups are created, and they can be edited afterward. To do this, you must be logged in as Admin, or as a user belonging to the Administrators group.
 
 == Setting Permissions on a New Group

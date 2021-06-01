@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, get, deployment, history, json
 
+
+include::partial$eol-warning.adoc[] 
+
 The GET operation retrieves links to historical information about the specified deployment when appended with `/history`. Each deployment has a version history. Each individual version contains the applications deployed, the servers deployed to, and the status of the last deployment.
 
 The resulting JSON data format contains two properties: `latestVersion` contains a link to the latest version of the deployment, and `versions` is an array that contains links to the individual deployment version details. These properties can be accessed as described in the deployment history details section below.

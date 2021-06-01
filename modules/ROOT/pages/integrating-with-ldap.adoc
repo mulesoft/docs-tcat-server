@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, ldap
 
+
+include::partial$eol-warning.adoc[] 
+
 [WARNING]
 The Lightweight Directory Access Protocol (LDAP), is a public standard that facilitates distributed directories (such as network user privilege information) over the Internet Protocol (IP). The many available LDAP servers include free-use open source projects. The particulars of installing, running and configuring LDAP servers fall outside the scope of this document; however, this document does provide an example of a simple LDAP configuration, including basic instructions for installing and running an LDAP server on a Linux system.
 

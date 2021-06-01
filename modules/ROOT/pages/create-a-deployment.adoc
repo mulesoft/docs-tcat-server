@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, deploy, POST
 
+
+include::partial$eol-warning.adoc[] 
+
 The POST operation creates a new deployment if the specified deployment does not already exist. The `name`, `applications`, and `servers` property of the deployment type are required, whereas the `applications` and `servers` arrays can be empty if desired.
 
 Example Request:

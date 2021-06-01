@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, remote, workspaces
 
+
+include::partial$eol-warning.adoc[] 
+
 Remote workspaces are workspaces that exist in another Tcat Server instance. Tcat Server allows you to attach these workspaces to your local Tcat Server instance so you can browse them and perform actions such as replication.
 
 Searching across remote workspaces is not currently supported.

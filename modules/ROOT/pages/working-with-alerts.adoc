@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, alerts
 
+
+include::partial$eol-warning.adoc[] 
+
 Alerts give you visibility to events that might need your attention and allow you to notify other administrators about actions they need to take. Alerts can be triggered on several different things:
 
 * A server going down

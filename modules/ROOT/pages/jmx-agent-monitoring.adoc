@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, jmx, agent, monitoring
 
+
+include::partial$eol-warning.adoc[] 
+
 This page describes how system administrators and developers can use MuleSoft Tcat Server to monitor JMX MBean attributes. These MBeans reside in the same Java virtual machine as the Tcat Server agent. If you would like to know more about the JMX standard, see the Oracle Java documentation page http://java.sun.com/j2se/1.5.0/docs/guide/management/agent.html[Monitoring and Management Using JMX].
 
 By default, Tcat Server's runtime environment enables the Java virtual machine's JMX agent. If you are using a stock Apache Tomcat by deploying the Tcat agent, Tcat will enable JMX in your stock Tomcat's JVM upon the first Tcat-controlled JVM restart.

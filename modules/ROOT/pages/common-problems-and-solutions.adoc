@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, problems, workarounds, issues
 
+
+include::partial$eol-warning.adoc[] 
+
 If you are experiencing issues, review the following common problems and workarounds for Tcat Server.
 
 == Unable to Communicate with Tcat Server

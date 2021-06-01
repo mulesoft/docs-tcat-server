@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, repository, manage, artifacts, workspace
 
+
+include::partial$eol-warning.adoc[] 
+
 The Repository tab allows you to add and remove *artifacts*, such as configuration files and applications, and manage workspaces. A *workspace* is a location in the repository where artifacts are stored. You can upload all your artifacts into the default Applications workspace, or you can create new workspaces to organize your artifacts.
 
 == Viewing the Repository Contents

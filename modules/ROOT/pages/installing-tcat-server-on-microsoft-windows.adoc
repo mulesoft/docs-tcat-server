@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, windows
 
+
+include::partial$eol-warning.adoc[] 
+
 This document describes how to install MuleSoft Tcat Server on the Microsoft Windows operating system. A basic installation using the Windows installer is described below, followed by advanced installations in text-only and unattended modes. In addition, this document describes how to start and stop Tcat Server, access the Tcat console, and provides advanced configuration and security steps.
 
 [TIP]

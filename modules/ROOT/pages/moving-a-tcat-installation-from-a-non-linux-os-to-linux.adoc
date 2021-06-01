@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, linux, migrate, jvm
 
+
+include::partial$eol-warning.adoc[] 
+
 This page discusses how to move an already-installed Tcat Server installation directory tree from a server running an operating system other than Linux to another server machine that runs Linux. This information applies to the following Linux distributions: Red Hat, CentOS, Fedora, Ubuntu, Debian, Debian variants, and SUSE variants.
 
 With a simple Tcat Server installation, where not much has changed from the stock Tcat Server installation, and the webapps are part of Tcat's `$CATALINA_HOME` tree, you can recursively copy that Tcat installation tree across to the Linux machine. Then follow these steps (you need to be root user):

@@ -1,0 +1,2 @@
+[WARNING]
+Tcat Server reached its End of Life in 2017. Contact your Customer Success Manager to determine options for managing, monitoring, or deploying your application.

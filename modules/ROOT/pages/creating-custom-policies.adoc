@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, custom, policies
 
+
+include::partial$eol-warning.adoc[] 
+
 Tcat Server allows you to build your own custom policies through the Galaxy APIs. These can be installed either as a JAR on the classpath or through a custom script. The JAR requires more overhead but allows you to more easily test and compile your policies.
 
 All policies inside Tcat Server are created by implementing the `Policy` interface. This interface allows you to approve items before they are stored in the repository.

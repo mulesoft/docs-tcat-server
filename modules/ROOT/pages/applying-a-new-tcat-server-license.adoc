@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, server, license
 
+
+include::partial$eol-warning.adoc[]
+
 When you are ready to go into production, you purchase a Tcat Server license and apply it to your instance of Tcat Server as follows:
 
 . Copy the file to the same server where Tcat Server is running.

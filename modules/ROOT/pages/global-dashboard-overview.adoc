@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, global, dashboard, portlet
 
+
+include::partial$eol-warning.adoc[] 
+
 The Tcat Global Dashboard allows you to create a unique view into your Tcat Server instance using the provided customizable portlets.
 
 By default, Tcat Server includes the Server Health, Application Status, Raised Alert and Deployment Status portlet – and many more are currently under development!

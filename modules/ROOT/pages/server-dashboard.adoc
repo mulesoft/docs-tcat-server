@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, server, dashboard, chart
 
+
+include::partial$eol-warning.adoc[] 
+
 The following shows the Tcat Server dashboard:
 
 image::server-dashboard.png[server_dashboard]

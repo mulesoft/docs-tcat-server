@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, update, server group
 
+
+include::partial$eol-warning.adoc[] 
+
 The PUT operation updates a server group. Currently the only property that can be updated is `name`.
 
 Example Request:

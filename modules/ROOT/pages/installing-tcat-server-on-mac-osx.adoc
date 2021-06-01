@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, install, mac, os x, osx
 
+
+include::partial$eol-warning.adoc[] 
+
 This document describes how to install MuleSoft Tcat Server on Apple's Mac OS X operating system. A basic installation using the Mac installer is described below.
 
 *Note*: The Mac OS X version of Tcat Server does not currently include remote server restarts and Mac OS-specific service integration.

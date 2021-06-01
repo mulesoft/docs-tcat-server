@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, install
 
+
+include::partial$eol-warning.adoc[] 
+
 Use these instructions to install Tcat Server on #one or #more machines, and to get started managing, monitoring, and deploying your applications.
 
 

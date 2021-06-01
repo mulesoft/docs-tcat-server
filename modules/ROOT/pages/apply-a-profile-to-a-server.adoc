@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, post, profile, server
 
+
+include::partial$eol-warning.adoc[]
+
 The POST operation applies and publishes a Server Profile to the specified server. The call takes a parameter named `profile`, which is the ID of the server profile to apply to the server. You may alternatively xref:apply-a-profile-to-a-server-group.adoc[apply a server profile to group of servers].
 
 Example Request:

@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, get, deployment, version
 
+
+include::partial$eol-warning.adoc[] 
+
 The GET operation retrieves the details for a particular deployment version. The URL is from the xref:get-the-deployment-history.adoc[deployment history resource].
 
 Example Request:

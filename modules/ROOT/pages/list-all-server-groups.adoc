@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, list, server groups, json
 
+
+include::partial$eol-warning.adoc[] 
+
 The GET operation returns a list of all the server groups on the resource. The resulting JSON contains two properties: `total`, which returns the number of total server groups, and `data`, which is an array of server group types.
 
 Example #1 Request:

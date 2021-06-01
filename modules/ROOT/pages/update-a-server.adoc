@@ -3,6 +3,9 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
+
+include::partial$eol-warning.adoc[]
+
 The PUT operation updates the specified server's properties. Currently the `name` and `group` properties can be updated.
 
 Example Request:

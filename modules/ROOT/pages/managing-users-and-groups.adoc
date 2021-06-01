@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, users, groups, permissions
 
+
+include::partial$eol-warning.adoc[] 
+
 Tcat Server uses the common permission scheme of users and user groups. Users are individuals who can log in to Tcat Server. User groups allow you to assign permissions collectively to a group of users.
 
 You manage users and user groups on the Administration tab in Tcat Server. You can also use LDAP to enable authentication (see xref:integrating-with-ldap.adoc[Enabling Authentication Through LDAP]). Note that after enabling authentication through LDAP, the Users link is no longer available.

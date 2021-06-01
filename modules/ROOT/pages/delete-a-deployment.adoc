@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, delete, deployment
 
+
+include::partial$eol-warning.adoc[] 
+
 The DELETE operation deletes the specified deployment. The URL is the deployment `href` property.
 
 Example Request:

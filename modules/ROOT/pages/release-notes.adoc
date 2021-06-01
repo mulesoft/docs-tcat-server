@@ -4,6 +4,9 @@ include::_attributes.adoc[]
 endif::[]
 :keywords: tcat, server, release notes
 
+
+include::partial$eol-warning.adoc[] 
+
 *August 2015*
 
 This guide provides release Notes for:
