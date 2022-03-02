@@ -49,7 +49,7 @@ Here are steps you may follow to create a new server profile and apply it to you
 
 . Click the Add Variable button.
 . Enter the name of the environment variable (without the preceding dollar sign or percent sign) by clicking into the environment variable's name field.
-. Enter the value for the environment variable, keeping in mind that when you apply the server profile to a server, the server may already have this variable set. You may want to reference the server's existing value in your server profile's environment variable value (otherwise your server profile's value is used, and the server's own value is lost). For example you may set JAVA_OPTS to add a JVM startup switch to the end of the existing value of JAVA_OPTS with a value like "${JAVA_OPTS} -Xmx2048m".
+. Enter the value for the environment variable, keeping in mind that when you apply the server profile to a server, the server may already have this variable set. You may want to reference the server's existing value in your server profile's environment variable value (otherwise your server profile's value is used, and the server's own value is lost). For example you may set JAVA_OPTS to add a JVM startup switch to the end of the existing value of JAVA_OPTS with a value like "$\{JAVA_OPTS} -Xmx2048m".
 . Save your server profile by clicking the Save button at the bottom.
 
 *Step 4*: Apply your server profile to your servers:
@@ -70,8 +70,8 @@ Servers have environment variable settings, and server profiles can have environ
 |(undefined) |MY_VAR=one two |MY_VAR=one two
 |MY_VAR=three |(undefined) |MY_VAR=three
 |MY_VAR=three |MY_VAR=one two |MY_VAR=one two
-|MY_VAR=${MY_VAR} three |MY_VAR=one two |MY_VAR=one two three
-|MY_VAR=three ${MY_VAR} |MY_VAR=one two |MY_VAR=three one two
+|MY_VAR=$\{MY_VAR} three |MY_VAR=one two |MY_VAR=one two three
+|MY_VAR=three $\{MY_VAR} |MY_VAR=one two |MY_VAR=three one two
 |===
 
 The server's environment variable setting takes precedence, but the server profile's value may reference and include the server's value into its own value.
@@ -84,11 +84,11 @@ The below table shows some examples of environment variable value references tha
 |===
 |Server Profile Env Var Setting |Description
 |${java.io.tmpdir} |Replace this reference with the server's system property value.
-|${USER} |Replace this reference with the current USER environment variable value.
-|${myVariablefoo} |Replace this reference with the system property named "myVariable", or with the environment variable with that name (if any), or with the optional default value of "foo" if neither is defined.
+|$\{USER} |Replace this reference with the current USER environment variable value.
+|$\{myVariablefoo} |Replace this reference with the system property named "myVariable", or with the environment variable with that name (if any), or with the optional default value of "foo" if neither is defined.
 |${os.name=Linuxfoo} |If the os.name system property is set to "Linux", replace this reference with "foo", otherwise replace the reference with a zero-length string. If the system property isn't set, the environment variable is also checked and any value is used for the conditional.
 |${myProp!=myValfoo} |If the myProp system property is *not* set to "myVal", replace this reference with "foo", otherwise check the environment variable named "myProp". If the conditional is found to be false, replace the reference with a zero-length string.
-|${shell:myVariable} |Convert this reference to a shell reference formatted for the shell of the server's OS, and then write that to the tcat-env.conf file. For example ${myVariable} on non-Windows OSs and %myVariable% on Windows.
+|${shell:myVariable} |Convert this reference to a shell reference formatted for the shell of the server's OS, and then write that to the tcat-env.conf file. For example $\{myVariable} on non-Windows OSs and %myVariable% on Windows.
 |===
 
 Supported conditional operators:

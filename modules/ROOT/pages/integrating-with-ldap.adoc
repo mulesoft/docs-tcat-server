@@ -135,7 +135,7 @@ The following table describes the properties set through the configuration file:
 |`userSearchAttributeKey` |The attribute used to search for users on the LDAP server. This is the (`userSearchAttributes` property of the `UserManagerTarget` bean).
 |`userSearchAttributeValue` |This is the value of the attribute used to search for users on the LDAP server.
 |`roleDn` |The DN of the context used to search for groups to which the user belongs. This is the second `<constructor-arg>` of the `ldapAuthoritiesPopulator bean`.
-|`groupSearchFilter` |A filter expression that finds roles. For instance, `(member={0})` searches for groups inside the `groupSearchBase` that have an attribute called `member`, whose values contain the user name supplied to the console in the *Username* field at login. This is the `groupSearchFilter` property of the {`ldapAuthoritiesPopulator`} bean.
+|`groupSearchFilter` |A filter expression that finds roles. For instance, `(member=\{0})` searches for groups inside the `groupSearchBase` that have an attribute called `member`, whose values contain the user name supplied to the console in the *Username* field at login. This is the `groupSearchFilter` property of the {`ldapAuthoritiesPopulator`} bean.
 |===
 
 You can configure user and group search parameters to suit the structure of the LDAP database containing user entries.
@@ -371,9 +371,9 @@ The following table describes LDAP configuration file parameters:
 ====
 As shown in <<Modify the System-Wide LDAP Configuration File>>, the LDAP configuration file stores the user name and password for the root user of the database. The password can be stored in clear text; however, this constitutes a security risk, since the LDAP configuration file is world-readable. To generate a hash for the password, run the following command: `slappasswd -h <scheme> -s <secret>`
 
-`<scheme>` is an RFC 2307 scheme such as {MD5}, {CRYPT} or {SSHA} (the default), and `<secret>` is the secret to hash. If invoked with no arguments, the command prompts for the secret and outputs the resulting {SSHA} hash.
+`<scheme>` is an RFC 2307 scheme such as \{MD5}, \{CRYPT} or \{SSHA} (the default), and `<secret>` is the secret to hash. If invoked with no arguments, the command prompts for the secret and outputs the resulting \{SSHA} hash.
 
-The output of this command should be similar to the following: {`MD5}Xr4ilOzQ4PCOq3aQ0qbuaQ==`
+The output of this command should be similar to the following: `\{MD5}Xr4ilOzQ4PCOq3aQ0qbuaQ==`
 
 This output can be copy-pasted into the LDAP configuration file for the `rootpw` field.
 ====
@@ -647,7 +647,7 @@ As you can see, group membership is not stored with the user's definition, but w
 When a user logs in to the console, the console first asks the LDAP server to verify the user name and password, and then requests a list of the groups that the user belongs to. The parameters for this search are defined in the following line on the `ldap.properties` file:
 
 ----
-groupSearchFilter=(member={0})
+groupSearchFilter=(member=\{0})
 ----
 
 ===== Creating and Defining a Test User and Group
