@@ -384,9 +384,9 @@ The Tcat console is an administration console for managing and monitoring Tomcat
 
 You can now select and register one or more of the unregistered servers, adding them to server groups as needed. For more details, see xref:working-with-servers.adoc[Working with Servers].
 
-=== Make Contents of Webapps Directory Unwriteable
+=== Make Contents of Webapps Directory Unwritable
 
-By default, the Tcat console enables a user to edit files on any Tcat Server instance registered to it. For additional security, you may wish to make the Webapps directory unwriteable.
+By default, the Tcat console enables a user to edit files on any Tcat Server instance registered to it. For additional security, you may wish to make the Webapps directory unwritable.
 
 This property is set in the `spring-services.xml` file located in the webapps/agent/WEB-INF/ directory. Below is the relevant snippet:
 

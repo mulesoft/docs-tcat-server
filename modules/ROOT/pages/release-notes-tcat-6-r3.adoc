@@ -70,8 +70,8 @@ Tcat Server 6 R3 fixes several bugs, but also bundles the official release binar
 | Feature/Addition | TCAT-666 | New Feature | Offer a way to turn off multicasting on the agent
 | Feature/Addition | TCAT-668 | New Feature | Move agent.properties out of the agent webapp directory
 | Feature/Addition | TCAT-736 | New Feature | Tomcat 7 Beta agent support for Tcat 6 R3
-| Feature/Addition | TCAT-597 |  |  Webapps List panel reimplemented in GWT
-| Feature/Addition | TCAT-598 |  |  Webapp View panel reimplemented in GWT
+| Feature/Addition | TCAT-597 |  |  Webapps List panel re-implemented in GWT
+| Feature/Addition | TCAT-598 |  |  Webapp View panel re-implemented in GWT
 | Feature/Addition | TCAT-599, TCAT-621, TCAT-409, TCAT-640 |  |  Windows Services
 | Feature/Addition | TCAT-601 and TCAT-602 |  | Deployment panel: Save / Deploy buttons simplified
 | Feature/Addition | TCAT-602 |  | Deployment panel: Rename deployments implemented

@@ -34,7 +34,7 @@ xref:installing-tcat-server-on-microsoft-windows.adoc[Microsoft Windows].
 
 == Required Software
 
-Tcat Server operates within a Java Viurtual Machine (JVM) and requires the Java SE Runtime Environment (JRE). However, it is strongly recommended that you install the Java SE Developers Kit (JDK). JDK includes JRE and provides for additional utilities.
+Tcat Server operates within a Java Virtual Machine (JVM) and requires the Java SE Runtime Environment (JRE). However, it is strongly recommended that you install the Java SE Developers Kit (JDK). JDK includes JRE and provides for additional utilities.
 
 === JRE and JDK Versions Supported
 

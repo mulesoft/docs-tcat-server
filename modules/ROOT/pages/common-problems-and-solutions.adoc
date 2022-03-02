@@ -15,7 +15,7 @@ When servers are registered, they are registered with a specific IP address. If 
 
 === Workaround
 
-In this case, you must un-register and re-register the servers with the current IP address.
+In this case, you must un-register and reregister the servers with the current IP address.
 
 == Main Screen Does Not Appear
 
