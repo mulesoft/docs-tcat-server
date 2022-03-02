@@ -401,7 +401,7 @@ We now expose our own webapp statistics (request count, average response time, e
 |===
 | Key | Component | Summary
 | TCAT-869 | Agent | Agent can't detect a stock Tomcat Windows service
-| TCAT-933 | Agent | Agent on Tomcat 7.0.5 unable to reregister on console
+| TCAT-933 | Agent | Agent on Tomcat 7.0.5 unable to re-register on console
 | TCAT-911 | Administration | Cannot remove a user group that was created before ldap integration was setup.
 | TCAT-892 | Repository | Console throws JCR ItemNotFoundExceptions just after startup
 | TCAT-838 | Installer | Create Tcat installer for Solaris
