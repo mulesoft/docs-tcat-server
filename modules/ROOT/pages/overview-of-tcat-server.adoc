@@ -42,4 +42,4 @@ Following are a few resources available to help you learn about Tomcat:
 
 xref:index.adoc[<< Previous: *Home*]
 
-xref:quick-start.adoc[Next: *Quick Start* >>]
+xref:quickstart.adoc[Next: *Quick Start* >>]

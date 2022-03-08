@@ -628,4 +628,4 @@ To uninstall the Tcat Server:
 * If you manually installed Tcat Server and Tomcat in the same directory, and you want to delete both programs, simply delete the entire folder.
 * If you manually installed Tcat Server on an existing Tomcat installation, delete the console, agent webapps and their folders from the `webapps` directory.
 
-xref:quick-start.adoc[<< Previous: *Quick Start*]
+xref:quickstart.adoc[<< Previous: *QuickStart*]
