@@ -17,7 +17,7 @@ For more information, see xref:monitoring-a-server.adoc[Monitoring a Server] and
 
 == Problem: My Applications are no Longer Recognized
 
-When servers are registered, they are registered with a specific IP address. If you are testing on a laptop with a wireless connection and you move from one location to another, your IP address might change, and the servers cannot communicate with Tcat Server. In this case, you must unregister and reregister the servers with the current IP address.
+When servers are registered, they are registered with a specific IP address. If you are testing on a laptop with a wireless connection and you move from one location to another, your IP address might change, and the servers cannot communicate with Tcat Server. In this case, you must unregister and re-register the servers with the current IP address.
 
 == Problem: My Console is Unavailable and I Cannot Unregister its Servers
 

@@ -257,9 +257,9 @@ You can now select and register one or more of the unregistered servers, adding 
 
 This section details a few important advanced options. For more information about configuring Tcat Server, please see the link:{attachmentsdir}/tcat-102010.pdf[Administration Guide].
 
-=== Make Contents of Webapps Directory Unwriteable
+=== Make Contents of Webapps Directory Unwritable
 
-By default, the Tcat console enables a user to edit files on any Tcat Server instance registered to it. For additional security, you may wish to make the Webapps directory unwriteable.
+By default, the Tcat console enables a user to edit files on any Tcat Server instance registered to it. For additional security, you may wish to make the Webapps directory unwritable.
 
 This property is set in the `spring-services.xml` file located in the `webapps/agent/WEB-INF/` directory. Below is the relevent snippet:
 

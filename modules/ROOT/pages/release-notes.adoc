@@ -337,7 +337,7 @@ Tcat allows writing a server profile whose environment variable settings are mul
 
 === 6.4.3 Support for the IBM J9 and Oracle JRockit Java VMs
 
-Tcat R4P3 introduced support for the IBM J9 1.5.0 and 1.6.0 JVMs, as well as the Oracle JRockit 1.6.0 JVM. The IBM J9 1.5.0 JVM can only be used with Tomcat vesions 6.0 and newer (due to a problem with the 1.5.0 J9 JVM not accepting self-signed X.509 certificates), while the IVM 1.6.0 JVM can be used with any version of Tomcat 5.5.x and newer. The JRockit 1.6.0 JVM can be used with any version of Tomcat 5.5.x and newer.
+Tcat R4P3 introduced support for the IBM J9 1.5.0 and 1.6.0 JVMs, as well as the Oracle JRockit 1.6.0 JVM. The IBM J9 1.5.0 JVM can only be used with Tomcat versions 6.0 and newer (due to a problem with the 1.5.0 J9 JVM not accepting self-signed X.509 certificates), while the IVM 1.6.0 JVM can be used with any version of Tomcat 5.5.x and newer. The JRockit 1.6.0 JVM can be used with any version of Tomcat 5.5.x and newer.
 
 === 6.4.3 Known Issues
 

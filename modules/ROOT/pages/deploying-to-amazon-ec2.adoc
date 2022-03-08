@@ -56,7 +56,7 @@ To create an instance:
 . On the Amazon EC2 tab, click *New Instance*.
 . Select the Amazon account you created.
 . Enter the number of EC2 instances you want to create.
-. Enter the name of the server (instance). If you are creating multiple instances, you can use the \{host} variable to insert the name of the host into the instance name, such as `MyHost-{host`}.
+. Enter the name of the server (instance). If you are creating multiple instances, you can use the \{host} variable to insert the name of the host into the instance name, such as `MyHost-\{host}`.
 . Enter the ID of the AMI you created, or use the test AMI ID (see <<Amazon Machine Images>> above).
 . Specify the instance type (size). This  affects how much your Amazon account is charged.
 . Enter the name of the key pair to use with these servers.

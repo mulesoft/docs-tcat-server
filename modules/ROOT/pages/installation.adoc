@@ -223,7 +223,7 @@ You can also xref:installing-multiple-tcat-instances-on-a-single-machine.adoc[in
 
 This section includes a few procedures for customizing installs.
 
-=== Make Contents of Webapps Directory Unwriteable
+=== Make Contents of Webapps Directory Unwritable
 
 By default, the Administration Console enables a user to edit files on any Tcat Server instance registered to it.
 
